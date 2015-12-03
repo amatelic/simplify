@@ -1,0 +1,22 @@
+{
+  "name": "framework",
+  "version": "0.0.0",
+  "description": "\"Framework which uses decorators\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "es7",
+    "es6"
+  ],
+  "author": "Anže Matelič <amatelic93@gmail.com>",
+  "license": "ISC",
+  "jspm": {
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
