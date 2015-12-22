@@ -17,7 +17,12 @@ System.config({
   map: {
     "babel": "npm:babel-core@5.8.34",
     "babel-runtime": "npm:babel-runtime@5.8.34",
+    "bootstrap": "github:twbs/bootstrap@3.3.6",
     "core-js": "npm:core-js@1.2.6",
+    "fetch": "github:github/fetch@0.10.1",
+    "lodash": "npm:lodash@3.10.1",
+    "lodash-node": "npm:lodash-node@3.10.1",
+    "lodash/lodash": "github:lodash/lodash@3.10.1",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -29,6 +34,9 @@ System.config({
     },
     "github:jspm/nodelibs-util@0.1.0": {
       "util": "npm:util@0.10.3"
+    },
+    "github:twbs/bootstrap@3.3.6": {
+      "jquery": "github:components/jquery@2.1.4"
     },
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
@@ -44,6 +52,12 @@ System.config({
     },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
+    },
+    "npm:lodash-node@3.10.1": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:lodash@3.10.1": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:path-browserify@0.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.2"
