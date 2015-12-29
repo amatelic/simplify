@@ -30,7 +30,7 @@ export function Error(target, key, descriptor) {
   descriptor.value = function(data) {
     Errors.call(target, data)
       .then((errors) => {
-        oldMethod.call(target, data, errors);
+        oldMethod.call(this, data, errors);
       })
       .catch((e) => {
         if (e.message) console.error(e.message);
